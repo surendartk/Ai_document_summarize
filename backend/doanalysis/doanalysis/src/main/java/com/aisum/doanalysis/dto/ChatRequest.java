@@ -1,0 +1,23 @@
+package com.aisum.doanalysis.dto;
+
+public class ChatRequest {
+
+    private String question;
+    private String fileName;
+
+    public String getQuestion() {
+        return question;
+    }
+
+    public void setQuestion(String question) {
+        this.question = question;
+    }
+
+    public String getFileName() {
+        return fileName;
+    }
+
+    public void setFileName(String fileName) {
+        this.fileName = fileName;
+    }
+}
